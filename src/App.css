@@ -1,11 +1,17 @@
-.title {
-  font-size: 1.5em;
+#root {
+  max-width: 1280px;
+  padding: 1rem 2rem;
   text-align: center;
-  color: #000000;
+  background-color: aqua;
+  border-radius: 8px;
 }
 
-.subTitle {
-  font-size: 1.0em;
-  text-align: center;
-  color: #000000;
+.title {
+  font-size: clamp(1.5rem, 5vw, 4rem);
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: clamp(0.7rem, 3vw, 2rem);
+  margin-bottom: 1rem;
 }
