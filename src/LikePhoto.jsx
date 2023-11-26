@@ -18,6 +18,14 @@ const LikePhoto = () => {
   return (
     <>
       <Title classes={"title"} text={"Like My Photo"} />
+      <p style={{width: "50vw", textAlign: "center", margin: "1rem auto"}}>
+        Here I have created one card with header, image and footer. You can see the &quot;1&quot; if photo is liked otherwise &quot;0&quot;.
+        <ol style={{marginTop: "1rem", textAlign: "left"}}>
+        Here you can like and dislike the photo by followin two ways:
+          <li>By double click on the image</li>
+          <li>By clicking on the like/dislike icon</li>
+        </ol>
+      </p>
       <div className="card">
         <div className="likes">
           <Title classes={"subTitle"} text={"Likes"} />
