@@ -1,10 +1,11 @@
 import './App.css'
+import LikePhoto from './LikePhoto'
 
 function App() {
 
   return (
     <>
-      <h1>Hello World! </h1>
+      <LikePhoto />
     </>
   )
 }

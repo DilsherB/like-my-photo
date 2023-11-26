@@ -1,6 +1,11 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.title {
+  font-size: 1.5em;
   text-align: center;
+  color: #000000;
+}
+
+.subTitle {
+  font-size: 1.0em;
+  text-align: center;
+  color: #000000;
 }
